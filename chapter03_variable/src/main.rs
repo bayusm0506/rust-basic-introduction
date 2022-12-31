@@ -18,5 +18,9 @@ fn main() {
 
     let (var1, var2) = (24, "Hello");
     println!("Var1 is {0}", var1);
-    println!("Var2 is {0}", var2)
+    println!("Var2 is {0}", var2);
+
+    let (var3, var4): (i8, i8) = (24, 12);
+    println!("Var3 is {0}", var3);
+    println!("Var4 is {0}", var4);
 }
