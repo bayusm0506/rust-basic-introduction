@@ -11,4 +11,8 @@ fn main() {
     number = 2;
     let message2 = "World";
     println!("Number is {}: {}", number, message2);
+
+    number = 3;
+    let message3: i8 = 24;
+    println!("Number is {1}: {0}", number, message3)
 }
