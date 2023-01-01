@@ -23,4 +23,13 @@ fn main() {
     let (var3, var4): (i8, i8) = (24, 12);
     println!("Var3 is {0}", var3);
     println!("Var4 is {0}", var4);
+
+    let (var5, mut var6, var7): (i8, i8, i8) = (64, 12, 4);
+    println!("Var5 is {0}", var5);
+    println!("Var6 is {0}", var6);
+    println!("Var7 is {0}", var7);
+
+    var6 = 24;
+    println!("Var6 is {0}", var6);
+    println!("Var7 is {0}", var7);
 }
