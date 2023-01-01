@@ -21,4 +21,7 @@ fn main() {
     let c2 = '-';
     let c3 = '2';
     println!("{} | {} | {}", c1, c2, c3);
+
+    let ptr1: &i32 = &24;
+    println!("{}", ptr1);
 }
