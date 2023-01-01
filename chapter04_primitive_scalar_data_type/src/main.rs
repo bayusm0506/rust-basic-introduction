@@ -12,4 +12,8 @@ fn main() {
     let fp1: f32 = 3.14;
     let fp2: f64 = 3.1415926535;
     println!("{} | {:.5}", fp1, fp2);
+
+    let b1 = false;
+    let b2 = true;
+    println!("{} | {}", b1, b2);
 }
