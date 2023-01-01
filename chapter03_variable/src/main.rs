@@ -38,5 +38,10 @@ fn main() {
     // or
     let data2 = 24_i8;
     println!("Data2 is {0}", data2);
-    
+
+    let x = 5;
+    println!("X is {0}", x);
+
+    let x = x + 1;
+    println!("X is {0}", x)
 }
