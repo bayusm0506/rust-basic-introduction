@@ -32,4 +32,11 @@ fn main() {
     var6 = 24;
     println!("Var6 is {0}", var6);
     println!("Var7 is {0}", var7);
+
+    let data1 = 24i8;
+    println!("Data1 is {0}", data1);
+    // or
+    let data2 = 24_i8;
+    println!("Data2 is {0}", data2);
+    
 }
