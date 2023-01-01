@@ -8,4 +8,8 @@ fn main() {
     let numeric5: u8 = 16;
     let numeric6: u64 = 42;
     println!("{} | {} | {}", numeric4, numeric5, numeric6);
+
+    let fp1: f32 = 3.14;
+    let fp2: f64 = 3.1415926535;
+    println!("{} | {:.5}", fp1, fp2);
 }
