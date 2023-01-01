@@ -16,4 +16,9 @@ fn main() {
     let b1 = false;
     let b2 = true;
     println!("{} | {}", b1, b2);
+
+    let c1 = 'n';
+    let c2 = '-';
+    let c3 = '2';
+    println!("{} | {} | {}", c1, c2, c3);
 }
