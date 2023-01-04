@@ -8,4 +8,10 @@ fn main() {
         \"Doe\"";
     println!("{}", var2);
 
+    let var3 = "Hello Jhon,
+Learn, Unlearn, 
+Relearn,
+Just keep moving
+    ";
+    println!("{}", var3);
 }
