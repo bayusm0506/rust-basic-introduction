@@ -14,4 +14,20 @@ Relearn,
 Just keep moving
     ";
     println!("{}", var3);
+
+    let var4 = r#"
+        {
+            "name": "Albert Einsten",
+            "gender": "Male"
+        }
+    "#;
+    println!("{}", var4);
+
+    let var5 = "
+        {
+            \"name\": \"Jhon Piter\",
+            \"gender\": \"Male\"
+        }
+    ";
+    println!("{var5}");
 }
