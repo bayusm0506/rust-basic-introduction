@@ -36,4 +36,7 @@ fn main() {
 
     let res_small_than: bool = numb_a <= numb_b;
     println!("{} <= {} = {}", numb_a, numb_b, res_small_than);
+
+    println!("res_eq : {res_eq}");
+    println!("res_not_eq : {res_not_eq}");
 }
