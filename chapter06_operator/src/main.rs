@@ -48,4 +48,27 @@ fn main() {
     let (bool_left, bool_right) = (false, true);
     println!("AND result \t: {}", bool_left && bool_right);
     println!("OR result \t: {}", bool_left || bool_right);
+
+    let a: i32 = 2;
+    let b: i32 = 2;
+
+    let mut result: i32;
+
+    result = a & b;
+    println!("(a & b) => {}", result);
+
+    result = a | b;
+    println!("(a | b) => {}", result);
+
+    result = a ^ b;
+    println!("(a ^ b) => {}", result);
+
+    result = !b;
+    println!("(!b) => {}", result);
+
+    result = a << b;
+    println!("(a << b) => {}", result);
+
+    result = a >> b;
+    println!("(a >> b) => {}", result);
 }
