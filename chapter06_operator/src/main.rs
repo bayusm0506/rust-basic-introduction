@@ -39,4 +39,9 @@ fn main() {
 
     println!("res_eq : {res_eq}");
     println!("res_not_eq : {res_not_eq}");
+
+    let (val_left, val_right) = (12, -12);
+    let res_neg_one = -val_left == val_right;
+    let res_neg_two = !(val_left == val_right);
+    println!("{res_neg_one} {res_neg_two}")
 }
