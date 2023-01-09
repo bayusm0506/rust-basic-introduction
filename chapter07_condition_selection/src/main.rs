@@ -17,4 +17,25 @@ fn main() {
     } else {
         println!("Number b is more than 2");
     }
+
+    let numb_c = 10;
+    if numb_c > 5 {
+        println!("Congrat's, you pass");
+
+        if numb_c == 10 {
+            println!("With number is perfect");
+        } else if numb_c > 7 {
+            println!("With number is good");
+        } else {
+            println!("With number is enough");
+        }
+    } else {
+        println!("You are not pass");
+
+        if numb_c < 4 {
+            println!("You can to try again");
+        } else {
+            println!("Don't forget to study and work hard");
+        }
+    }
 }
