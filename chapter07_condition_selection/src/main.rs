@@ -56,4 +56,25 @@ fn main() {
     let result_e = if numb_e == 2 { true } else { false };
 
     println!("Result e is {result_e}");
+
+    let numb_f = 3;
+    let result_f: &str = if numb_f == 2 {
+        "Number is 2"
+    } else if numb_f < 2 {
+        "Number left than 2"
+    } else {
+        "Number is more than 2"
+    };
+
+    println!("{result_f}");
+
+    let max = 100.0;
+    let string_g = "Minimum pass number";
+    let result_g: f64 = if string_g == "Maximum pass numb" {
+        max
+    } else{
+        max * 3.0 / 4.0
+    };
+
+    println!("Number is {result_g}");
 }
