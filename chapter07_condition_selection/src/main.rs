@@ -38,4 +38,22 @@ fn main() {
             println!("Don't forget to study and work hard");
         }
     }
+
+    let numb_d = 3;
+    let result_d: bool;
+
+    if numb_d == 2 {
+        result_d = false;
+    } else {
+        result_d = true;
+    }
+
+    println!("Result d is {result_d}");
+
+    // is equivalen with result d
+
+    let numb_e = 3;
+    let result_e = if numb_e == 2 { true } else { false };
+
+    println!("Result e is {result_e}");
 }
