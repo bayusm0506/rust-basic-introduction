@@ -49,4 +49,27 @@ fn main() {
             break;
         }
     }
+
+    let mut m = 0;
+    let max_m = 9;
+
+    'mainloop: loop {
+        m += 1;
+        let mut n = 0;
+
+        loop {
+            if m > max_m {
+                break 'mainloop;
+            }
+
+            n += 1;
+            if n > m {
+                break;
+            }
+
+            print!("{m} ");
+        }
+
+        println!();
+    }
 }
