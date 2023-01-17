@@ -32,4 +32,21 @@ fn main() {
             break;
         }
     }
+
+    let mut l = 0;
+    let max_l = 15;
+
+    loop {
+        l += 1;
+
+        if l % 2 == 1 {
+            continue;
+        }
+
+        println!("Value i : {i}");
+
+        if l > max_l {
+            break;
+        }
+    }
 }
