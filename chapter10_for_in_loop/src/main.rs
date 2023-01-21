@@ -9,4 +9,9 @@ fn main() {
             break 'perulangan;
         }
     }
+
+    let array = ["Jhon", "Doe", "Rambo", "Zigzag"];
+    for name in array {
+        println!("{name}");
+    }
 }
