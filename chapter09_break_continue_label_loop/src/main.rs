@@ -43,7 +43,7 @@ fn main() {
             continue;
         }
 
-        println!("Value i : {i}");
+        println!("Value i : {l}");
 
         if l > max_l {
             break;
