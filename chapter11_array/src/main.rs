@@ -18,4 +18,10 @@ fn main() {
 
     let float_numbers = [24.1, 17.2, 32.3, 12.4];
     println!("{float_numbers:?}");
+
+    let boolean_data = [false, true];
+    println!("{boolean_data:?}");
+
+    let integer_unsigned = [24, 21, 3];
+    println!("{integer_unsigned:?}");
 }
