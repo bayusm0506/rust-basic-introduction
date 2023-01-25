@@ -29,8 +29,13 @@ fn main() {
     let length = names.len();
     println!("array size is {}", length);
 
-    let names2 = ["Jhon", "Rambo", "James"];
+    let names2 = ["Vio", "Duck", "Cing"];
     for name in names2{
         println!("{name}")
+    }
+
+    let names3 = ["Chick", "Ant", "Mon"];
+    for i in 0..names3.len(){
+        println!("Array index ke-{i}: {}", names3[i]);
     }
 }
