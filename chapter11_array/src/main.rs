@@ -24,4 +24,8 @@ fn main() {
 
     let integer_unsigned = [24, 21, 3];
     println!("{integer_unsigned:?}");
+
+    let names = ["Jhon", "Rambo", "James"];
+    let length = names.len();
+    println!("array size is {}", length);
 }
