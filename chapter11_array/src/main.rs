@@ -28,4 +28,9 @@ fn main() {
     let names = ["Jhon", "Rambo", "James"];
     let length = names.len();
     println!("array size is {}", length);
+
+    let names2 = ["Jhon", "Rambo", "James"];
+    for name in names2{
+        println!("{name}")
+    }
 }
