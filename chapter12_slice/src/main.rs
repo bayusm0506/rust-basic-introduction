@@ -23,5 +23,11 @@ fn main() {
 
     println!("=== after ===");
     println!("slice_e : {:?}", slice_e);
-    println!("numbers2 : {:?}", numbers2)
+    println!("numbers2 : {:?}", numbers2);
+
+    let scores1 = [7, 8, 9];
+
+    for score in &scores1[..] {
+        print!("{:?} ", score);
+    }
 }
