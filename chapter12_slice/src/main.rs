@@ -30,4 +30,15 @@ fn main() {
     for score in &scores1[..] {
         print!("{:?} ", score);
     }
+
+    let mut scores2 = [7, 8, 9];
+    println!("(before) scores2 : {:?}", scores2);
+
+    let slice_f = &mut scores2[..];
+
+    for score in &mut slice_f[..] {
+        *score += 1;
+    }
+
+    println!("(after) scores2 : {:?}", scores2);
 }
