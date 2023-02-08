@@ -14,4 +14,14 @@ fn main() {
     tuple_b.3 = true;
 
     println!("tuple_b: {:?}", tuple_b);
+
+    let name = "grayson";
+    let age = 29;
+    let hobbies = ["sleeping", "parkour"];
+
+    let tuple_c = (name, age, hobbies);
+
+    println!("name  : {:?}", tuple_c.0);
+    println!("age   : {:?}", tuple_c.1);
+    println!("hobbies  : {:?}", tuple_c.2);
 }
