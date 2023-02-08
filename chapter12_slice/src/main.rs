@@ -13,4 +13,15 @@ fn main() {
     println!("slice_b : {:?}, len: {}", slice_b, slice_b.len());
     println!("slice_b[0] : {:?}", slice_b[0]);
     println!("slice_b[1] : {:?}", slice_b[1]);
+
+    let mut numbers2 = [12, 16, 8, 3];
+    println!("=== before ===");
+    println!("numbers2 : {:?} \n", numbers2);
+
+    let slice_e = &mut numbers2[..=2];
+    slice_e[1] = 99;
+
+    println!("=== after ===");
+    println!("slice_e : {:?}", slice_e);
+    println!("numbers2 : {:?}", numbers2)
 }
