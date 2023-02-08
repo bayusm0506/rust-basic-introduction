@@ -38,4 +38,18 @@ fn main() {
     for i in 0..names3.len(){
         println!("Array index ke-{i}: {}", names3[i]);
     }
+
+    let data_arr = [
+        ["salad", "fried rice"],
+        ["apple", "coconut"],
+        ["spinach", "jalapeno"]
+    ];
+
+    for sub_arr in data_arr {
+        for el in sub_arr {
+            print!("{el}, ");
+        }
+        println!();
+    }
+
 }
