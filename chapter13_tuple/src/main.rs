@@ -24,4 +24,12 @@ fn main() {
     println!("name  : {:?}", tuple_c.0);
     println!("age   : {:?}", tuple_c.1);
     println!("hobbies  : {:?}", tuple_c.2);
+
+    let tuple_d = ("Jhon", 28, ["Enginering"], false);
+    let (name, age, hobbies, is_male) = tuple_d;
+
+    println!("name  : {:?}", name);
+    println!("age   : {:?}", age);
+    println!("hobbies : {:?}", hobbies);
+    println!("is_male : {:?}", is_male);
 }
