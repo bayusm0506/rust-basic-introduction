@@ -35,4 +35,11 @@ fn main() {
 
     println!("data: {:?}", result_one);
     println!("length: {}, capacity: {}", result_one.len(), result_one.capacity());
+
+    data_one.sort();
+    data_two.sort();
+    result_one.sort();
+    println!("data_one: {:?}", data_one);
+    println!("data_two: {:?}", data_two);
+    println!("result_one: {:?}", result_one);
 }
