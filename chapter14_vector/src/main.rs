@@ -43,9 +43,18 @@ fn main() {
     println!("data_two: {:?}", data_two);
     println!("result_one: {:?}", result_one);
 
-    let mut vector_4 = vec![1, 2, 3];
-    let mut vector_5: Vec<i64>= vec![1, 2, 3];
-    let mut vector_6: Vec<&str> = vec![];
-    let mut vector_7: Vec<&str> = Vec::new();
+    // let mut vector_4 = vec![1, 2, 3];
+    // let mut vector_5: Vec<i64>= vec![1, 2, 3];
+    // let mut vector_6: Vec<&str> = vec![];
+    // let mut vector_7: Vec<&str> = Vec::new();
 
+    let vec_eight = vec![1, 2, 3];
+    for e in vec_eight {
+        print!("{e} ");
+    }
+
+    let vec_nine = vec![1, 2, 3];
+    for i in 0..vec_nine.len() {
+        print!("{} ", vec_nine[i]);
+    }
 }
