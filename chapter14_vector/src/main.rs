@@ -25,4 +25,12 @@ fn main() {
     data_two.clear();
     println!("data: {:?}", data_two);
     println!("length: {}, capacity: {}", data_two.len(), data_two.capacity());
+
+    let mut result_one = vec![3, 5,1];
+
+    let mut data_three = vec![9, 4, 2];
+    result_one.append(&mut data_three);
+
+    println!("data: {:?}", result_one);
+    println!("length: {}, capacity: {}", result_one.len(), result_one.capacity());
 }
