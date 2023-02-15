@@ -14,4 +14,7 @@ fn main() {
     data_two[2] = "black hood";
     println!("data two: {:?}", data_two);
     println!("length two: {}, capacity two: {}", data_two.len(), data_two.capacity());
+
+    let is_vector_empty = data_one.is_empty();
+    println!("result: {:?}", is_vector_empty);
 }
