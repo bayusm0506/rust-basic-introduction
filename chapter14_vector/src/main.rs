@@ -57,4 +57,13 @@ fn main() {
     for i in 0..vec_nine.len() {
         print!("{} ", vec_nine[i]);
     }
+
+    let vec_ten = vec![1, 2, 3];
+    for e in vec_ten.iter() {
+        print!("{e} ");
+    }
+
+    for i in 0..vec_ten.len() {
+        print!("{} ", vec_ten[i]);
+    }
 }
