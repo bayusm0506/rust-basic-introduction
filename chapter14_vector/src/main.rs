@@ -42,4 +42,10 @@ fn main() {
     println!("data_one: {:?}", data_one);
     println!("data_two: {:?}", data_two);
     println!("result_one: {:?}", result_one);
+
+    let mut vector_4 = vec![1, 2, 3];
+    let mut vector_5: Vec<i64>= vec![1, 2, 3];
+    let mut vector_6: Vec<&str> = vec![];
+    let mut vector_7: Vec<&str> = Vec::new();
+
 }
