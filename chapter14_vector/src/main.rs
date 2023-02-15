@@ -66,4 +66,8 @@ fn main() {
     for i in 0..vec_ten.len() {
         print!("{} ", vec_ten[i]);
     }
+    
+    let vec_population = vec![4, 6, 2];
+    let vec_sample = &vec_population[0..1];
+    println!("{:?}", vec_sample);
 }
