@@ -17,4 +17,12 @@ fn main() {
 
     let is_vector_empty = data_one.is_empty();
     println!("result: {:?}", is_vector_empty);
+
+    data_one.clear();
+    println!("data: {:?}", data_one);
+    println!("length: {}, capacity: {}", data_one.len(), data_one.capacity());
+
+    data_two.clear();
+    println!("data: {:?}", data_two);
+    println!("length: {}, capacity: {}", data_two.len(), data_two.capacity());
 }
