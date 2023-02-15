@@ -31,6 +31,8 @@ fn main() {
     let mut data_three = vec![9, 4, 2];
     result_one.append(&mut data_three);
 
+    result_one.append(&mut vec![4, 7]);
+
     println!("data: {:?}", result_one);
     println!("length: {}, capacity: {}", result_one.len(), result_one.capacity());
 }
